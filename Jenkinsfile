@@ -5,11 +5,6 @@ pipeline {
 
  stages {
 
- stage('Built') {
-       steps {
-          sh 'npm install'
-       }
-  }
   stage('Unit Tests') {
         steps {
            echo 'Unit Tests'

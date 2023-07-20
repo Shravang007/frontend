@@ -18,6 +18,7 @@ pipeline {
     }
     stage('Security Scans') {
           steps {
+          //Checkmarx Scan
              echo 'Security Scans'
           }
      }
